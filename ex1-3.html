@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WEB1 - JavaScript</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
+  </head>
+
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <!--
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+  ">
+  <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+  ">
+  -->
+  <input type="button" value="night" onclick="
+    nightDayHandler(this)
+    ">
+  <ol>
+    <li><a href="ex1-1.html">HTML</a></li>
+    <li><a href="ex1-2.html">CSS</a></li>
+    <li><a href="ex1-3.html">JavaScrit</a></li>
+  </ol>
+  <div id="article">
+    <h2>JavaScript란 무엇인가?</h2>
+    <p>
+      JavaScript( English : JavaScript ) is an object -based scripting programming language . This language is mainly used within web browsers and has the ability to access built-in objects of other applications. It is also used for server programming, such as runtime environments such as Node.js. JavaScript was originally developed by Brendan Eich of Netscape Communications Corporation under the name Mocha and later as LiveScript, and eventually became JavaScript.Although JavaScript has similar syntax to Sun Microsystems ' Java , in fact, both languages ​​are based on the basic syntax of C language , and Java and JavaScript have a weak direct relationship. Other than the name and syntax, it has more similarities to Self or Scheme than Java . JavaScript is ECMAScriptIt is recognized as the language that best implements the standard specification of (ECMAScript), and was basically supported in most browsers up to ECMAScript 5 (ES5), but from ECMAScript 6 onwards, it is compiled with a transpiler for browser compatibility .
+    </p>
+  </div>
+  </body>
+</html>
